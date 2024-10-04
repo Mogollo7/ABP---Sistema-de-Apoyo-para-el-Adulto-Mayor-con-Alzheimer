@@ -164,7 +164,7 @@ La clase `UsuarioLogin` es parte del módulo `Capa` y se utiliza para gestionar 
 
 3. **`mostrar()`**: Este método devuelve la colección de usuarios almacenados en `datos`. Retorna una lista que contiene todos los objetos `Usuario` y se utiliza para mostrar la lista de usuarios registrados, permitiendo el acceso a los datos de todos los usuarios en el sistema.
 
-### ** MenuLogin** 
+### **MenuLogin** 
 
 En este apartado se comienzan a utilizar las funciones anteriores de los códigos. Se presenta una interfaz gráfica en donde se deben ingresar el usuario y la contraseña. A través de una estructura de control `if`, se comprueba si las credenciales ingresadas son iguales a las registradas. Si no se ha registrado, hay un botón que redirecciona automáticamente a la ventana del menú registro.
 
