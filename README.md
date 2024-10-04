@@ -20,7 +20,7 @@
     - [**Proceso de Inicio de Sesión**](#proceso-de-inicio-de-sesión)
     - [**Menú Registro**](#menú-registro)
     - [**Interfaz de Usuario**](#interfaz-de-usuario)
-        - [**Panel de Perfil**](#panel-de-perfil)
+        - [**Panel Principal**](#panel-principal)
         - [**Panel de Ejercicios**](#panel-de-ejercicios)
         - [**Panel de Repositorio**](#panel-de-repositorio)
 5. [**Estructura del Código**](#estructura-del-código)
@@ -28,15 +28,15 @@
     - [**Usuario**](#usuario)
         - [**Atributos**](#atributos)
         - [**Métodos**](#métodos)
-            - [**Getters y Setters**](#getters-y-setters-ingresar-y-devolver)
+            - [**Getters y Setters**](#getters-y-settersingresar-y-devolver)
             - [**Métodos de Clase**](#métodos-de-clase)
     - [**UsuarioLogin**](#usuariologin)
         - [**Atributos**](#atributos-usuario)
         - [**Métodos**](#métodos-usuario)
-    - [**MenuLogin.py**](#menuloginpy)
+    - [**MenuLogin**](#-menulogin)
     - [**MenuRegistro**](#menuregistro)
     - [**InterfazUsuario**](#interfazusuario)
-        - [**Panel de Perfil**](#panel-de-perfil)
+        - [**Panel de Principal**](#panel-principal)
         - [**Panel de Ejercicios**](#panel-de-ejercicios)
         - [**Panel de Repositorio**](#panel-de-repositorio)
 6. [**Requisitos**](#requisitos)
@@ -163,6 +163,7 @@ La clase `UsuarioLogin` es parte del módulo `Capa` y se utiliza para gestionar 
 2. **`eliminar(pos)`**: Este método elimina un usuario de la colección en la posición especificada. Toma un entero que indica la posición del usuario que se desea eliminar en la lista. Se utiliza para eliminar usuarios del sistema, por ejemplo, cuando un usuario decide borrar su cuenta.
 
 3. **`mostrar()`**: Este método devuelve la colección de usuarios almacenados en `datos`. Retorna una lista que contiene todos los objetos `Usuario` y se utiliza para mostrar la lista de usuarios registrados, permitiendo el acceso a los datos de todos los usuarios en el sistema.
+
 ### ** MenuLogin** 
 
 En este apartado se comienzan a utilizar las funciones anteriores de los códigos. Se presenta una interfaz gráfica en donde se deben ingresar el usuario y la contraseña. A través de una estructura de control `if`, se comprueba si las credenciales ingresadas son iguales a las registradas. Si no se ha registrado, hay un botón que redirecciona automáticamente a la ventana del menú registro.
@@ -203,7 +204,7 @@ En el apartado de "Ejercicios", se encuentran los nombres de información de esp
   <figcaption><strong></strong></figcaption>
 </figure>
 
-##### **Panel de Memorias**
+##### **Panel de Repositorio**
 
 En el apartado de "Memorias", se encuentra el espacio para ingresar memorias, ya sean fotos y descripciones de estas, para poder recordar momentos especiales.
 
@@ -222,9 +223,9 @@ En el apartado de "Memorias", se encuentra el espacio para ingresar memorias, ya
 En proceso
 ## **Licencia**
 
-Este proyecto está licenciado bajo la **MIT License**.
+Este proyecto está licenciado bajo la [MIT License](https://github.com/Mogollo7/ABP---Sistema-de-Apoyo-para-el-Adulto-Mayor-con-Alzheimer/blob/main/LICENSE).
 
 ## **Autor**
 
-[Juan Sebastián Martínez Galeano](https://github.com/Mogollo7?tab=repositories)
-[Samuel Usma Brand](https://github.com/Brandsete)
+- [Juan Sebastián Martínez Galeano](https://github.com/Mogollo7?tab=repositories)
+- [Samuel Usma Brand](https://github.com/Brandsete)
